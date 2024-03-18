@@ -38,8 +38,9 @@ const RegisterView = ({
         </p>
         <p>
             Huomioithan, että jäsenyys on voimassa aina hyväksymishetkestä
-            kuluvan vuoden heinäkuun loppuun asti. Mikäli ostat viisi vuotta
-            jäsenyyttä, kuluu ensimmäinen vuotesi heinäkuun lopussa.
+            kuluvan vuoden heinäkuun loppuun asti. <strong>Uusi opiskelija
+            ethän siis osta jäsenyyttäsi ennen 1.8.!</strong> Mikäli ostat
+            viisi vuotta jäsenyyttä, kuluu ensimmäinen vuotesi heinäkuun lopussa.
         </p>
         <p>
             <a href="https://www.asteriski.fi/jasenyys/">Lisätietoa jäsenyydestä</a>.
