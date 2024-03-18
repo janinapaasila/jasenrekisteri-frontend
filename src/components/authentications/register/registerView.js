@@ -38,9 +38,8 @@ const RegisterView = ({
         </p>
         <p>
             Huomioithan, että jäsenyys on voimassa aina hyväksymishetkestä
-            kuluvan kalenterivuoden loppuun asti. Mikäli ostat viisi vuotta
-            jäsenyyttä, kuluu ensimmäinen vuotesi nykyisen kalenterivuoden
-            loppuessa.
+            kuluvan vuoden heinäkuun loppuun asti. Mikäli ostat viisi vuotta
+            jäsenyyttä, kuluu ensimmäinen vuotesi heinäkuun lopussa.
         </p>
         <p>
             <a href="https://www.asteriski.fi/jasenyys/">Lisätietoa jäsenyydestä</a>.
@@ -147,23 +146,10 @@ const RegisterView = ({
                         >
                             <option value="1111">1 vuosi - 5€</option>
                             <option value="1555">5 vuotta - 20€</option>
-                            {currentDate.getMonth() > 6 ? (
-                                <option value="1222">
-                                    Pilttitarjous: 1,5 vuotta - 7€
-                                </option>
-                            ) : null}
                         </SelectGroup>
                     </Form.Group>
                 </Col>
             </Row>
-            {productId === '1222' ? (
-                <p>
-                    Pilttitarjous on tarkoitettu vain uusille
-                    tietojenkäsittelytiedeiden opiskelijoille. Pilttitarjouksen
-                    jäsenyyden pituus on kuluvan vuoden loppuun ja koko ensi
-                    vuosi.
-                </p>
-            ) : null}
             <Form.Group>
                 <Form.Check
                     inline

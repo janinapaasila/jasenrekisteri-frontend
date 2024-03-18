@@ -21,9 +21,9 @@ const MemberPayView = membershipEnds => (
         </p>
         <p>
             Huomioithan, että jäsenyys on voimassa aina
-            hyväksymishetkestä kuluvan kalenterivuoden loppuun asti.
+            hyväksymishetkestä kuluvan vuoden heinäkuun loppuun asti.
             Mikäli ostat viisi vuotta jäsenyyttä, kuluu ensimmäinen vuotesi
-            nykyisen kalenterivuoden loppuessa.
+            nykyisen vuoden heinäkuun loppuessa.
         </p>
         <p>
             Nykyinen jäsenyytesi päättymispäivä on{' '}
